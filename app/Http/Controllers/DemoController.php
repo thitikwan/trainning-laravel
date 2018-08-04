@@ -9,7 +9,8 @@ class DemoController extends Controller
       
     public function index()
     {
-        return "Method GET: Index";
+        return "Method GET: demoone";
+       // return view('admin.layouts.template');
     }
 
     public function demotwo()
